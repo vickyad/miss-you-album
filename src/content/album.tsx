@@ -33,78 +33,137 @@ import photo30 from "../assets/IMG_20220828_100917_330.jpg";
 import photo31 from "../assets/IMG_20220828_100930_419.jpg";
 import photo32 from "../assets/IMG_20220828_100939_081.jpg";
 import photo33 from "../assets/IMG_20231207_135638.jpg";
+import photo34 from "../assets/20220713_181403.jpg";
+import photo35 from "../assets/20221006_103302.jpg";
+import photo36 from "../assets/20221006_103322.jpg";
+import photo37 from "../assets/20221124_121759.jpg";
+import photo38 from "../assets/IMG_20221118_170824_547.jpg";
+import photo39 from "../assets/IMG-20220709-WA0019.jpg";
+import photo40 from "../assets/IMG-20220805-WA0037.jpg";
+import photo41 from "../assets/IMG-20220821-WA0000.jpg";
+import photo42 from "../assets/IMG-20220821-WA0002.jpg";
+import photo43 from "../assets/IMG-20221120-WA0077.jpg";
+import photo44 from "../assets/IMG-20221124-WA0057.jpg";
+import photo45 from "../assets/IMG-20221124-WA0063.jpg";
+import photo46 from "../assets/IMG-20230114-WA0008.jpg";
+import photo47 from "../assets/IMG-20230125-WA0009.jpg";
+import photo48 from "../assets/IMG-20230515-WA0027.jpg";
+import photo49 from "../assets/IMG-20230623-WA0010.jpg";
+import photo50 from "../assets/IMG-20231011-WA0014.jpg";
+import photo51 from "../assets/IMG-20240217-WA0000.jpg";
 
 export const albumPages = [
+  {
+    id: 1,
+    content: <TextPage cover />,
+  },
   // Everybody
-  { id: 1, content: <PhotoPage layout="five" images={[photo26]} /> },
+  { id: 2, content: <PhotoPage layout="five" images={[photo26]} /> },
   // Recepção dos calouros
   {
-    id: 4,
+    id: 3,
     content: <PhotoPage layout="four" images={[photo01, photo08]} />,
   },
   {
-    id: 3,
+    id: 4,
     content: <PhotoPage layout="three" images={[photo09, photo27]} />,
   },
   // Posudos
   {
-    id: 3,
+    id: 5,
     content: <PhotoPage layout="four" images={[photo11, photo02]} />,
   },
   // Passeio no Mario Quintana
   {
-    id: 2,
+    id: 6,
     content: <PhotoPage layout="three" images={[photo28, photo30]} />,
   },
   {
-    id: 2,
+    id: 7,
     content: <PhotoPage layout="two" images={[photo29, photo31]} />,
   },
   {
-    id: 3,
+    id: 8,
     content: <PhotoPage layout="five" images={[photo32, photo04]} />,
   },
   // Sessão Helo
-  { id: 1, content: <PhotoPage layout="one" images={[photo13]} /> },
+  { id: 9, content: <PhotoPage layout="one" images={[photo13]} /> },
   {
-    id: 2,
+    id: 10,
     content: <PhotoPage layout="two" images={[photo05, photo07]} />,
   },
   {
-    id: 2,
+    id: 11,
     content: <PhotoPage layout="three" images={[photo16, photo18]} />,
+  },
+  // Sessão Pedro
+  {
+    id: 12,
+    content: <PhotoPage layout="two" images={[photo25, photo37]} />,
+  },
+  {
+    id: 13,
+    content: <PhotoPage layout="three" images={[photo39, photo48]} />,
   },
   // Formatura da May
   {
-    id: 2,
+    id: 14,
     content: <PhotoPage layout="three" images={[photo14, photo15]} />,
   },
   // Formatura da Vic
   {
-    id: 2,
+    id: 15,
     content: <PhotoPage layout="two" images={[photo20, photo23]} />,
   },
-  { id: 1, content: <PhotoPage layout="five" images={[photo22]} /> },
+  { id: 16, content: <PhotoPage layout="five" images={[photo22]} /> },
   {
-    id: 2,
+    id: 17,
     content: <PhotoPage layout="three" images={[photo21, photo24]} />,
   },
   // ???
   {
-    id: 3,
+    id: 18,
     content: <PhotoPage layout="four" images={[photo03, photo33]} />,
   },
   {
-    id: 2,
-    content: <PhotoPage layout="two" images={[photo25, photo10]} />,
+    id: 19,
+    content: <PhotoPage layout="two" images={[photo19, photo10]} />,
   },
   {
-    id: 3,
+    id: 20,
     content: <PhotoPage layout="four" images={[photo06, photo12]} />,
   },
-  { id: 1, content: <PhotoPage layout="five" images={[photo17]} /> },
   {
-    id: 5,
-    content: <TextPage />,
+    id: 21,
+    content: <PhotoPage layout="three" images={[photo34, photo50]} />,
+  },
+  {
+    id: 22,
+    content: <PhotoPage layout="four" images={[photo51, photo49]} />,
+  },
+  {
+    id: 23,
+    content: <PhotoPage layout="two" images={[photo38, photo35]} />,
+  },
+  {
+    id: 24,
+    content: <PhotoPage layout="four" images={[photo36, photo46]} />,
+  },
+  {
+    id: 25,
+    content: <PhotoPage layout="three" images={[photo41, photo42]} />,
+  },
+  {
+    id: 26,
+    content: <PhotoPage layout="four" images={[photo47, photo40]} />,
+  },
+  {
+    id: 27,
+    content: <PhotoPage layout="three" images={[photo44, photo45]} />,
+  },
+  { id: 28, content: <PhotoPage layout="five" images={[photo17]} /> },
+  {
+    id: 29,
+    content: <TextPage cover />,
   },
 ];

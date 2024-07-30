@@ -1,6 +1,11 @@
 import { Container } from "./styles";
 
-const TextPage = () => {
-  return <Container>Eu sou um texto</Container>;
+interface ITextPage {
+  cover?: boolean;
+  text?: string;
+}
+
+const TextPage = ({ cover = false, text }: ITextPage) => {
+  return <Container cover={cover}>Eu sou um texto</Container>;
 };
 export default TextPage;
