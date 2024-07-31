@@ -1,4 +1,4 @@
-import { Container } from "./styles";
+import { Container, InnerContainer } from "./styles";
 
 interface ITextPage {
   cover?: boolean;
@@ -6,6 +6,10 @@ interface ITextPage {
 }
 
 const TextPage = ({ cover = false, text }: ITextPage) => {
-  return <Container cover={cover}>Eu sou um texto</Container>;
+  return (
+    <Container $cover={cover}>
+      <InnerContainer $cover={cover}>{text ?? ""}</InnerContainer>
+    </Container>
+  );
 };
 export default TextPage;

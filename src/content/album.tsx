@@ -55,7 +55,7 @@ import photo51 from "../assets/IMG-20240217-WA0000.jpg";
 export const albumPages = [
   {
     id: 1,
-    content: <TextPage cover />,
+    content: <TextPage cover text="Para nossos futuros franceses" />,
   },
   // Everybody
   { id: 2, content: <PhotoPage layout="five" images={[photo26]} /> },
