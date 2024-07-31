@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/miss-you-album/static/css/main.fa7e5410.css",
-    "main.js": "/miss-you-album/static/js/main.e40b92f8.js",
+    "main.css": "/miss-you-album/static/css/main.7884463d.css",
+    "main.js": "/miss-you-album/static/js/main.3a408cc6.js",
     "static/js/453.4791d829.chunk.js": "/miss-you-album/static/js/453.4791d829.chunk.js",
     "static/media/IMG_20231207_135638.jpg": "/miss-you-album/static/media/IMG_20231207_135638.782ba6e09ee012367ba3.jpg",
     "static/media/20220618_153423.jpg": "/miss-you-album/static/media/20220618_153423.b63a5f54b4173107f75f.jpg",
@@ -54,12 +54,12 @@
     "static/media/IMG-20240211-WA0016.jpg": "/miss-you-album/static/media/IMG-20240211-WA0016.0c6e33c507ccbb812731.jpg",
     "static/media/IMG-20231031-WA0009.jpg": "/miss-you-album/static/media/IMG-20231031-WA0009.f34dda4dc3cf6a75e020.jpg",
     "index.html": "/miss-you-album/index.html",
-    "main.fa7e5410.css.map": "/miss-you-album/static/css/main.fa7e5410.css.map",
-    "main.e40b92f8.js.map": "/miss-you-album/static/js/main.e40b92f8.js.map",
+    "main.7884463d.css.map": "/miss-you-album/static/css/main.7884463d.css.map",
+    "main.3a408cc6.js.map": "/miss-you-album/static/js/main.3a408cc6.js.map",
     "453.4791d829.chunk.js.map": "/miss-you-album/static/js/453.4791d829.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.fa7e5410.css",
-    "static/js/main.e40b92f8.js"
+    "static/css/main.7884463d.css",
+    "static/js/main.3a408cc6.js"
   ]
 }

@@ -1,0 +1,1 @@
+{"version":3,"file":"static/css/main.7884463d.css","mappings":"AAAA,KAIE,wBAAyB,CAHzB,oCAAwC,CAExC,iBAAkB,CADlB,eAAgB,CAGhB,QACF","sources":["index.css"],"sourcesContent":["body {\n  font-family: \"Nanum Pen Script\", cursive;\n  font-weight: 400;\n  font-style: normal;\n  background-color: #663a82;\n  margin: 0;\n}\n"],"names":[],"sourceRoot":""}
