@@ -11,8 +11,16 @@ export const Container = styled.div<{ $cover: boolean }>`
 `;
 
 export const InnerContainer = styled.div<{ $cover: boolean }>`
-  font-size: ${(props) => (props.$cover ? "3.5rem" : "1.5rem")};
+  font-size: 1.5rem;
   font-weight: ${(props) => (props.$cover ? 600 : 400)};
   color: ${(props) => (props.$cover ? "#fafafa" : "#000000")};
   padding: 3rem 2.5rem;
+
+  & h1 {
+    font-size: 3.5rem;
+  }
+
+  & p {
+    font-size: 1.3rem;
+  }
 `;

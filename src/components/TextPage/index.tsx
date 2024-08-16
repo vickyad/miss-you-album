@@ -1,8 +1,9 @@
+import { ReactElement } from "react";
 import { Container, InnerContainer } from "./styles";
 
 interface ITextPage {
   cover?: boolean;
-  text?: string;
+  text?: ReactElement;
 }
 
 const TextPage = ({ cover = false, text }: ITextPage) => {

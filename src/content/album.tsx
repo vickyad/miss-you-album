@@ -42,7 +42,6 @@ import photo39 from "../assets/IMG-20220709-WA0019.jpg";
 import photo40 from "../assets/IMG-20220805-WA0037.jpg";
 import photo41 from "../assets/IMG-20220821-WA0000.jpg";
 import photo42 from "../assets/IMG-20220821-WA0002.jpg";
-import photo43 from "../assets/IMG-20221120-WA0077.jpg";
 import photo44 from "../assets/IMG-20221124-WA0057.jpg";
 import photo45 from "../assets/IMG-20221124-WA0063.jpg";
 import photo46 from "../assets/IMG-20230114-WA0008.jpg";
@@ -55,7 +54,7 @@ import photo51 from "../assets/IMG-20240217-WA0000.jpg";
 export const albumPages = [
   {
     id: 1,
-    content: <TextPage cover text="Para nossos futuros franceses" />,
+    content: <TextPage cover text={<h1>"Para nossos futuros franceses"</h1>} />,
   },
   // Everybody
   { id: 2, content: <PhotoPage layout="five" images={[photo26]} /> },
@@ -143,11 +142,11 @@ export const albumPages = [
   },
   {
     id: 23,
-    content: <PhotoPage layout="two" images={[photo38, photo35]} />,
+    content: <PhotoPage layout="two" images={[photo38, photo36]} />,
   },
   {
     id: 24,
-    content: <PhotoPage layout="four" images={[photo36, photo46]} />,
+    content: <PhotoPage layout="four" images={[photo35, photo46]} />,
   },
   {
     id: 25,
@@ -164,6 +163,73 @@ export const albumPages = [
   { id: 28, content: <PhotoPage layout="five" images={[photo17]} /> },
   {
     id: 29,
+    content: (
+      <TextPage
+        text={
+          <>
+            <p>
+              Fiquei aqui pensando o que eu gostaria de dizer para vocês nesse
+              momento pré-viagem.
+            </p>
+            <p>
+              Primeiro, as coisas óbvias que vocês já devem ter ouvido pelo
+              menos um milhão de vezes (meio milhão só de mim hahahah): tenham
+              uma ótima viagem, se divirtam MUITO, criem novas memórias e tenham
+              novas experiências, aproveitem ao máximo, mandem muitas fotos, nos
+              contem suas aventuras e nós morreremos de saudades.
+            </p>
+            <p>
+              Segundo, mesmo que a gente esteja fisicamente longe, lembrem que
+              estamos sempre pertinho de vocês e qualquer coisa que precisarem é
+              só falar.
+            </p>
+            <p>
+              Não sei se consigo expressar o quão orgulhosa eu estou da
+              conquista de vocês. Parece que foi ontem que vocês entraram na
+              faculdade, que conheci vocês no PET. Ver vocês realizando mais
+              esse sonho na vida de vocês só me traz alegrias.
+            </p>
+            <p style={{ textAlign: "right" }}>Amo vocês,</p>
+            <p style={{ textAlign: "right" }}>- Vic</p>
+          </>
+        }
+      />
+    ),
+  },
+  {
+    id: 30,
+    content: (
+      <TextPage
+        text={
+          <>
+            <h2>Feito com muito amor por:</h2>
+            <ul>
+              <li>Andrew</li>
+              <li>Bea</li>
+              <li>Dudinha</li>
+              <li>Edu</li>
+              <li>Ian</li>
+              <li>Jordi</li>
+              <li>José</li>
+              <li>JV</li>
+              <li>Laula Leis</li>
+              <li>Leleo</li>
+              <li>Marquinhos</li>
+              <li>Marti</li>
+              <li>Nathan</li>
+              <li>Sofia</li>
+              <li>Tomás</li>
+              <li>Vic</li>
+              <li>Vini</li>
+              <li>Vitor</li>
+            </ul>
+          </>
+        }
+      />
+    ),
+  },
+  {
+    id: 31,
     content: <TextPage cover />,
   },
 ];

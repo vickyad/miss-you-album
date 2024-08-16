@@ -20,8 +20,9 @@ export const Tape = styled.span<{ $color: string }>`
   background: ${(props) => props.$color};
 `;
 
-export const Image = styled.img<{ $rotated: boolean }>`
+export const Image = styled.img<{ $rotated: boolean; $position: string }>`
   object-fit: cover;
   width: ${(props) => (props.$rotated ? "17rem" : "13rem")};
   height: ${(props) => (props.$rotated ? "13rem" : "17rem")};
+  object-position: ${(props) => props.$position};
 `;

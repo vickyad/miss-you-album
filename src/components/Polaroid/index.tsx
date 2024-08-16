@@ -3,10 +3,16 @@ import { Container, Image, InnerContainer, Tape } from "./styles";
 interface IPolaroid {
   imageUrl: string;
   rotated?: boolean;
+  imagePosition?: string;
   style?: React.CSSProperties;
 }
 
-const Polaroid = ({ imageUrl, rotated = false, style }: IPolaroid) => {
+const Polaroid = ({
+  imageUrl,
+  rotated = false,
+  imagePosition = "inherit",
+  style,
+}: IPolaroid) => {
   const getColor = () => {
     const color = Math.floor(Math.random() * (4 - 0));
     switch (color) {
@@ -120,7 +126,7 @@ const Polaroid = ({ imageUrl, rotated = false, style }: IPolaroid) => {
     <Container style={style}>
       <InnerContainer $rotated={rotated}>
         {getTape()}
-        <Image src={imageUrl} $rotated={rotated} />
+        <Image src={imageUrl} $rotated={rotated} $position={imagePosition} />
       </InnerContainer>
     </Container>
   );
